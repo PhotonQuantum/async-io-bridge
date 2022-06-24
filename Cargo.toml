@@ -1,0 +1,21 @@
+[package]
+name = "async-io-bridge"
+authors = ["LightQuantum <self@lightquantum.me>"]
+description = "A compat wrapper around AsyncRead/AsyncWrite that implements Read/Write."
+repository = "https://github.com/PhotonQuantum/async-io-bridge"
+license = "MIT"
+keywords = ["async", "tokio", "io", "convert", "compat"]
+readme = "README.md"
+version = "0.1.0-alpha.1"
+edition = "2021"
+exclude = [
+    ".github/*",
+    ".mergify.yml",
+]
+
+[dependencies]
+async-trait = "0.1"
+tokio = { version = "1.19", features = ["sync", "io-util"] }
+
+[dev-dependencies]
+tokio = { version = "1.19", features = ["rt-multi-thread", "macros"] }

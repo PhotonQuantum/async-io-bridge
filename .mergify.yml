@@ -1,0 +1,10 @@
+pull_request_rules:
+  - name: Automatic merge
+    conditions:
+      - author=dependabot[bot]
+      - check-success=Lint
+      - check-success=Test
+      - check-success=Test (miri)
+    actions:
+      merge:
+        method: squash
