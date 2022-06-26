@@ -1,5 +1,9 @@
 //! # async-io-bridge
 //!
+//! ## DEPRECATED
+//!
+//! PLEASE USE `tokio_util::io::SyncIoBridge` INSTEAD.
+//!
 //! A compat wrapper around `std::io::{Read, Write, Seek}` that implements `tokio::io::{AsyncRead, AsyncWrite, AsyncSeek}`.
 //!
 //! See [tokio-io-compat](https://github.com/PhotonQuantum/tokio-io-compat) if you want to wrap async io objects to provide sync interfaces.

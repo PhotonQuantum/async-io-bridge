@@ -6,7 +6,7 @@ repository = "https://github.com/PhotonQuantum/async-io-bridge"
 license = "MIT"
 keywords = ["async", "tokio", "io", "convert", "compat"]
 readme = "README.md"
-version = "0.1.0-alpha.1"
+version = "0.1.0"
 edition = "2021"
 exclude = [
     ".github/*",

@@ -1,5 +1,9 @@
 # async-io-bridge
 
+## DEPRECATED
+
+PLEASE USE `tokio_util::io::SyncIoBridge` INSTEAD.
+
 [![GitHub Workflow Status](https://img.shields.io/github/workflow/status/PhotonQuantum/async-io-bridge/Test?style=flat-square)](https://github.com/PhotonQuantum/async-io-bridge/actions/workflows/test.yml)
 [![crates.io](https://img.shields.io/crates/v/async-io-bridge?style=flat-square)](https://crates.io/crates/async-io-bridge)
 [![Documentation](https://img.shields.io/docsrs/async-io-bridge?style=flat-square)](https://docs.rs/async-io-bridge)
